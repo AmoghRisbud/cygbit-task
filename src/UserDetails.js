@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './Userdetails.css'
 
 const UserDetails = () => {
-    
+
     const { id } = useParams();
     const [user, setUser] = useState({});
     const [error, setError] = useState("");
@@ -18,7 +18,6 @@ const UserDetails = () => {
             })
             .then(function (resp) {
                 setUser(resp.data);
-                console.log(resp);
 
             })
             .catch((error) => setError(error.message));
@@ -27,9 +26,8 @@ const UserDetails = () => {
     var fname = user.first_name + '';
     var lname = user.last_name + '';
     var avatar = fname.charAt() + lname.charAt();
-   
-    return (
 
+    return (
         <div className='description'>
             <div className='title'>
                 <div className="avatar">
@@ -46,7 +44,6 @@ const UserDetails = () => {
                 <hr>
                 </hr>
                 <div className='generalinfo'>
-
                     <div className='information'>
                         <h2>
                             User ID
@@ -65,9 +62,7 @@ const UserDetails = () => {
                         </h2>
                         <div >
                             <h2 className='attributes'>{user.first_name}</h2>
-                            
                         </div>
-
                     </div>
                     <div className='information'>
                         <h2>
@@ -76,11 +71,9 @@ const UserDetails = () => {
                         <div >
                             <h2 className='attributes'>{user.last_name}</h2>
                         </div>
-
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };

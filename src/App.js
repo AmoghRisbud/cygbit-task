@@ -15,30 +15,28 @@ function App() {
           <Route path="/">
             <div className="list">
               <div className="row">
-              <h2>
-                ID
-              </h2>
-              <h2 >
-                Avatar
-              </h2>
-              <h2 className='email'>
-                Email
-              </h2>
-              <h2>
-                First name
-              </h2>
-              <h2>
-                Last name
-              </h2>
-            </div>
-            <hr>
-            </hr>
-            <UserList />
+                <h2>
+                  ID
+                </h2>
+                <h2 >
+                  Avatar
+                </h2>
+                <h2 className='email'>
+                  Email
+                </h2>
+                <h2>
+                  First name
+                </h2>
+                <h2>
+                  Last name
+                </h2>
+              </div>
+              <hr></hr>
+              <UserList />
             </div>
           </Route>
         </Switch>
       </Router>
-
     </div>
   );
 }

@@ -12,17 +12,13 @@
 }
 a{
     text-decoration: none;
-
 }
 .symbol{
-   
-  border-radius: 50%;
-  background-color: #FEAFAF ;
+    border-radius: 50%;
+    background-color: #FEAFAF ;
     position: relative;  
     height: 65px;
     width: 65px;
-    
-   
 }
 .symbol h1{
     font-size: 20px !important;

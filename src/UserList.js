@@ -21,7 +21,6 @@ const UserList = () => {
 
     }, []);
 
-
     return (
         <div >
             {!users.length ? (
@@ -36,17 +35,13 @@ const UserList = () => {
                             firstname={user.first_name}
                             lastname={user.last_name}
                             key={user.id}
-                            // images={user.images}
+                            
                         />
-                        <hr className='userlist'>
-                        </hr>
-
+                        <hr className='userlist'></hr>
                         </div>
-                        
                     );
                 })
-            )}
-            
+            )} 
         </div>
     );
 };
