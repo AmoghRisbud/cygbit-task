@@ -1,0 +1,65 @@
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+   padding: 5%;
+    margin: auto;
+}
+.title{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 2% 0%;
+}
+.title .avatar{
+    flex-basis: 65px;
+    border-radius: 50%;
+    background-color: #FEAFAF ;
+    position: relative;  
+    height: 65px;
+    width: 65px;
+    font: bold 16px "Open Sans", sans-serif;
+
+}
+.title .avatar h2{
+    font-size: 20px !important;
+    padding-top: 5px;
+    color: #F02828   !important;
+}
+.generalinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.information{
+
+    display: flex;
+    
+    flex-basis: 320px;
+    flex-direction: column;
+}
+.username{
+    padding-top: 5px;
+}
+
+h1{
+    font: bold 22px "Open Sans", sans-serif;
+}
+h2{
+    font: normal 18px "Open Sans", sans-serif;
+    opacity: 0.8;
+}
+.attributes{
+    font: bold 20px "Open Sans", sans-serif;
+    opacity: 0.9;
+}
+.info-title{
+    font: bold 20px "Open Sans", sans-serif;
+    text-align: start ;
+    padding: 1% 5%;
+    opacity: 0.9;
+}
+hr{
+    width: 100%;
+}

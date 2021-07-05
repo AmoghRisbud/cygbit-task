@@ -1,0 +1,41 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 2% 5%;
+    justify-content: space-between;
+}
+.info .email{
+    flex-basis: 360px;
+}
+a{
+    text-decoration: none;
+
+}
+.symbol{
+   
+  border-radius: 50%;
+  background-color: #FEAFAF ;
+    position: relative;  
+    height: 65px;
+    width: 65px;
+    
+   
+}
+.symbol h1{
+    font-size: 20px !important;
+    padding-top: 10px;
+    color: #F02828   !important;
+}
+a .info h1{
+    flex-basis: 120px;
+    align-items: center;
+    font: bold 22px "Open Sans", sans-serif;
+    color: black;
+    opacity: 0.8;
+}
+hr .userlist{
+    width: 80% !important;
+}
